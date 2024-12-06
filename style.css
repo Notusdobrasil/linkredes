@@ -130,7 +130,7 @@ body {
 
 .apresetacao-video  {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     width: 80%;
     flex-direction: column;
     margin: 0% 0 40px 0;
