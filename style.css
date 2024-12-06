@@ -130,9 +130,9 @@ body {
 
 .apresetacao-video  {
     display: flex;
+    justify-self: center;
     width: 80%;
     flex-direction: column;
-    justify-self: center;
     margin: 0% 0 40px 0;
 }
 
@@ -140,9 +140,6 @@ body {
     box-shadow: 4px 4px 10px #134596 ;
 }
 
-.apresetacao-video iframe {
-    aspect-ratio: 16/9;
-}
 
 
 .sobre-notus {
