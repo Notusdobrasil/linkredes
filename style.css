@@ -129,16 +129,15 @@ body {
 }
 
 .apresentacao-video  {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin: 0% 0 40px 0;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .youtube-secao {
     box-shadow: 4px 4px 10px #134596 ;
 }
+
 
 .sobre-notus {
     margin: 30px 0 10px 0;
