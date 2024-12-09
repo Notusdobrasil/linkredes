@@ -133,17 +133,17 @@ body {
     text-align: center;
 }
 
+.apresentacao-video  {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
 .youtube-secao {
     box-shadow: 4px 4px 10px 0px #134596 ;
 }
 
-.sobre-notus {
-    margin: 30px 0 10px 0;
-    font-size: 25px;
-    font-weight: 600;
-    font-family: var(--font-padrao);
-    text-align: center;
-}
 
 strong {
     color: #134596;
