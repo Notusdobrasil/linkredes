@@ -137,11 +137,8 @@ body {
 }
 
 .youtube-secao {
-    display: flex;
     box-shadow: 4px 4px 10px #134596 ;
-    max-width: 80%;
 }
-
 
 .sobre-notus {
     margin: 30px 0 10px 0;
