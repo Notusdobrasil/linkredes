@@ -128,22 +128,15 @@ body {
     height: 60px;
 }
 
-.apresetacao-video  {
-    
-   
-    
+.apresentacao-video  {
     flex-direction: column;
     margin: 0% 0 40px 0;
     
 }
 
 .youtube-section {
-    display: flex;
-    max-width: 50%;
-    justify-self: center;
     box-shadow: 4px 4px 10px #134596 ;
 }
-
 
 
 .sobre-notus {
