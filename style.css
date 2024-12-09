@@ -11,10 +11,10 @@
 }
 
 body {
-    height: 100vh;
-    background:  linear-gradient(45deg, #2ca5f5, #b6c4ce, #ffffff, #cacaca, #5fbaf7, #2ca5f5);
+
+    background:  linear-gradient(45deg, #2ca5f5, #afdeff, #ffffff, #cacaca, #5fbaf7, #2ca5f5);
     background-size: 600% 600%;
-    animation: gradientBackground 15s infinite linear;
+    animation: gradientBackground 30s infinite linear;
 }
 
 @keyframes gradientBackground {
@@ -112,6 +112,10 @@ body {
     padding: 30px;
 }
 
+.link-acesso:hover {
+    color: var(--cor-black);
+}
+
 .background-link {
     display: flex;
     width: 400px;
@@ -123,21 +127,22 @@ body {
 }
 
 .background-link:hover {
-    width: 410px;
-    height: 60px;
+    background-color: transparent;
+    border: solid 0.1rem #000000;
 }
 
 .apresentacao-video  {
     display: block;
     margin-bottom: 40px;
     text-align: center;
-    
+    width: 100%;
 }
 
 .youtube-secao {
     box-shadow: 4px 4px 10px 0px #134596 ;
+    width: 80%;
+    aspect-ratio: 16/9;
 }
-
 
 .sobre-notus {
     margin: 30px 0 10px 0;
@@ -165,7 +170,6 @@ strong {
     height: 30vh;
     gap: 5%;
 }
-
 
 .logo-footer {
     max-width: 200px;
@@ -202,6 +206,5 @@ strong {
     display: block;
     margin: 0% 0 40px 0;
     text-align: center;
-    min-width: 30%;
 }
 }
