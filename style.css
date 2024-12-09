@@ -109,7 +109,6 @@ body {
     display: flex;
     text-decoration: none;
     color: var(--background-main);
-    background-size: contain;
     padding: 30px;
 }
 
@@ -117,7 +116,7 @@ body {
     display: flex;
     width: 400px;
     height: 60px; 
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     background-color: #134596;
     border-radius: 40px;
@@ -188,6 +187,7 @@ strong {
 
 
 
+
 @media (max-width: 500px ) {
     .background-link {
     display: flex;
@@ -197,12 +197,10 @@ strong {
     background-color: #134596;
     border-radius: 40px;
 }
-
-.youtube-section {
-    display: flex;
-    min-width: 80%;
-    justify-self: center;
-    box-shadow: 4px 4px 10px #134596 ;
+.apresentacao-video  {
+    display: block;
+    margin: 0% 0 40px 0;
+    text-align: center;
+    min-width: 30%;
 }
 }
-
