@@ -117,7 +117,7 @@ body {
     display: flex;
     width: 400px;
     height: 60px; 
-    justify-content: center;
+    justify-self: center;
     align-items: center;
     background-color: #134596;
     border-radius: 40px;
@@ -129,14 +129,18 @@ body {
 }
 
 .apresetacao-video  {
-    display: flex;
-    justify-self: center;
-    width: 80%;
+    
+   
+    
     flex-direction: column;
     margin: 0% 0 40px 0;
+    
 }
 
 .youtube-section {
+    display: flex;
+    width: 50%;
+    justify-self: center;
     box-shadow: 4px 4px 10px #134596 ;
 }
 
