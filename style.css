@@ -129,13 +129,17 @@ body {
 }
 
 .apresentacao-video  {
+    display: flex;
     flex-direction: column;
     margin: 0% 0 40px 0;
-    
+    justify-content: center;
+    align-items: center;
 }
 
-.youtube-section {
+.youtube-secao {
+    display: flex;
     box-shadow: 4px 4px 10px #134596 ;
+    max-width: 80%;
 }
 
 
