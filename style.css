@@ -11,10 +11,10 @@
 }
 
 body {
-    height: 100vh;
-    background:  linear-gradient(45deg, #2ca5f5, #b6c4ce, #ffffff, #cacaca, #5fbaf7, #2ca5f5);
+
+    background:  linear-gradient(45deg, #2ca5f5, #afdeff, #ffffff, #cacaca, #5fbaf7, #2ca5f5);
     background-size: 600% 600%;
-    animation: gradientBackground 15s infinite linear;
+    animation: gradientBackground 30s infinite linear;
 }
 
 @keyframes gradientBackground {
@@ -90,11 +90,6 @@ body {
  
 }
 
-.fa-brands:hover {
-    color: #5fbaf7;
-}
-
-
 .link-geral {
     display: flex;
     gap: 10px;
@@ -109,42 +104,40 @@ body {
     display: flex;
     text-decoration: none;
     color: var(--background-main);
-    background-size: contain;
     padding: 30px;
+}
+
+.link-acesso:hover {
+    color: var(--cor-black);
 }
 
 .background-link {
     display: flex;
     width: 400px;
     height: 60px; 
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     background-color: #134596;
     border-radius: 40px;
 }
 
 .background-link:hover {
-    width: 410px;
-    height: 60px;
+    background-color: transparent;
+    border: solid 0.1rem #000000;
 }
 
-.apresetacao-video  {
-    
-   
-    
-    flex-direction: column;
-    margin: 0% 0 40px 0;
-    
+.apresentacao-video  {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
 }
 
-.youtube-section {
-    display: flex;
-    width: 50%;
-    justify-self: center;
-    box-shadow: 4px 4px 10px #134596 ;
+.youtube-secao {
+    box-shadow: 4px 4px 10px 0px #134596 ;
+    width: 80%;
+    aspect-ratio: 16/9;
 }
-
-
 
 .sobre-notus {
     margin: 30px 0 10px 0;
@@ -173,7 +166,6 @@ strong {
     gap: 5%;
 }
 
-
 .logo-footer {
     max-width: 200px;
 }
@@ -195,6 +187,7 @@ strong {
 
 
 
+
 @media (max-width: 500px ) {
     .background-link {
     display: flex;
@@ -203,5 +196,10 @@ strong {
     align-items: center;
     background-color: #134596;
     border-radius: 40px;
+}
+.apresentacao-video  {
+    display: block;
+    margin: 0% 0 40px 0;
+    text-align: center;
 }
 }
