@@ -90,11 +90,6 @@ body {
  
 }
 
-.fa-brands:hover {
-    color: #5fbaf7;
-}
-
-
 .link-geral {
     display: flex;
     gap: 10px;
